@@ -1,0 +1,14 @@
+
+
+This archive contains the distribution Dist-Zilla-Plugin-TestRun,
+version 0.0.1:
+
+  run ./Build runtest on the build distribution
+
+This software is Copyright (c) 2012 by Shlomi Fish.
+
+This is free software, licensed under:
+
+  The MIT (X11) License
+
+
