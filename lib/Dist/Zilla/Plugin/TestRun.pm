@@ -1,8 +1,10 @@
 package Dist::Zilla::Plugin::TestRun;
 
+use 5.012;
+
 use Moose;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 with
 (
@@ -25,13 +27,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Dist::Zilla::Plugin::TestRun
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 
@@ -49,8 +53,6 @@ version 0.0.1
     $ dzil test --release
 
 Will run using "./Build runtest" as well.
-
-=encoding utf8
 
 =head1 NAME
 
